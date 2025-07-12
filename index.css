@@ -38,6 +38,13 @@ p {
     padding: 5px;
 }
 
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 button {
     font-family: pointsFont;
     color: #9AABD8;
@@ -56,9 +63,9 @@ button:hover {
 }
 
 .new {
-  display: grid;
-  align-items: center;
-  position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 #newGame {
