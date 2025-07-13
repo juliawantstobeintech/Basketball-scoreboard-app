@@ -56,8 +56,6 @@ p {
     flex-direction:row;
     align-items: center;
     gap: 10px;
-    border: 1px solid #9AABD8; 
-    border-radius: 8px;         
     padding: 10px;
 }
 
@@ -66,7 +64,8 @@ button {
     color: #9AABD8;
     margin-top:5px;
     background-color: #1B244A;
-    border: none;
+    border: 1px solid #9AABD8; 
+    border-radius: 8px;         
     border-radius: 10px;
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
