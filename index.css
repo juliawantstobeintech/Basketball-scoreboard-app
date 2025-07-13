@@ -33,6 +33,13 @@ body {
     flex: 1;
 }
 
+.groups > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers h3 and scores horizontally */
+}
+
 h3 {
     color: white;
     text-align: center;
