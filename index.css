@@ -10,8 +10,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* pushes children to each side */
-    align-items: center;        /* aligns items to the top */
+    justify-content: flex-start; /* aligns items to the top */
+    align-items: center;        /* aligns items to the center */
     background-color: #1B244A;
     padding-bottom: 50px;
     width: 40vw;
@@ -29,7 +29,7 @@ body {
 
 .groups {
     display: flex;
-    justify-content: space-between;
+   justify-content: space-between;  
     width: 100%;
     flex: 1;
 }
@@ -54,7 +54,7 @@ h3 {
     margin: auto;
     padding-right: 25px;
     padding-left: 25px;
-    padding-bottom: 1mm;
+    padding-bottom: 1px;
     border-radius: 10px;
 }
 
@@ -82,7 +82,6 @@ button {
     background-color: #1B244A;
     border: 1px solid #9AABD8; 
     border-radius: 8px;         
-    border-radius: 10px;
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
