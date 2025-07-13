@@ -9,8 +9,9 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between; /* pushes children to each side */
-    align-items: flex-start;        /* aligns items to the top */
+    align-items: center;        /* aligns items to the top */
     background-color: #1B244A;
     padding-bottom: 50px;
     width: 40vw;
@@ -22,6 +23,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* centers h3 and scores horizontally */
+    flex: 1;
+}
+
+.groups {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     flex: 1;
 }
 
@@ -85,10 +93,11 @@ button:hover {
 
 #newGame {
     font-family: sans-serif;
+    align-self: center;
     color: #F94F6D;
     text-align: center;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 30px;
     display: block;
     margin-left: auto;
