@@ -9,17 +9,30 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* pushes children to each side */
+    align-items: flex-start;        /* aligns items to the top */
     background-color: #1B244A;
     padding-bottom: 50px;
-    
+    width: 400vw;
+    height: 300vw;
+    margin: 0 auto; /* centers the square horizontally */
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers h3 and scores horizontally */
+    flex: 1;
 }
 
 h3 {
     color: white;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .scores {
+    align-items: center;
     display: inline-block;
     background-color: #080001;
     margin: auto;
@@ -43,6 +56,9 @@ p {
     flex-direction:row;
     align-items: center;
     gap: 10px;
+    border: 1px solid #9AABD8; 
+    border-radius: 8px;         
+    padding: 10px;
 }
 
 button {
@@ -79,6 +95,7 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+    border: 1px solid #F94F6D;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.10);
     
