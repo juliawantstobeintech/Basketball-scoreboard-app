@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* aligns items to the top */
-    align-items: center;        /* aligns items to the center */
+   /* align-items: center;        aligns items to the center */
     background-color: #1B244A;
     padding-bottom: 50px;
     width: 40vw;
